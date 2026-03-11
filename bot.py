@@ -1,4 +1,3 @@
-from dotenv import load_dotenv; load_dotenv()
 import discord
 import os
 from groq import Groq
