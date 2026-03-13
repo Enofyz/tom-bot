@@ -88,7 +88,7 @@ async def on_message(message):
     async with message.channel.typing():
         try:
             reponse = client_ai.chat.completions.create(
-              model="llama-3.1-8b-instant",   # Modèle gratuit Groq
+              model="llama-3.3-70b-versatile",   # Modèle gratuit Groq
                 max_tokens=500,
                 messages=[
                     {"role": "system", "content": PERSONNALITE}
